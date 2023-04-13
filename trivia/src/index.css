@@ -1,13 +1,87 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+:root {
+  --clr-button: #4d5b9e;
+  --clr-button-lighter: #d6dbf5;
+  --crl-text: #293264;
+  --clr-background: #f5f7fb;
+  --clr-accent: #fffad1;
+
+  --ff-main: "Inter", sans-serif;
+  --ff-heading: "Karla", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+html {
+  font-family: var(--ff-main);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--ff-heading);
+}
+
+.blobBL {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 10vw;
+}
+
+.blobTR {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 15vw;
+}
+
+.app-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--crl-text);
+  background-color: var(--clr-background);
+  min-height: 100vh;
+  padding-top: 1em;
+}
+
+.app-title {
+  filter: drop-shadow(0px 4px 4px rgba(41, 50, 100, 0.25));
+  font-weight: 700;
+}
+
+.app-subtitle {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 19px;
+  margin: 0.5em 0 1.5em 0;
+  text-align: center;
 }
