@@ -1,4 +1,4 @@
-# [Quiz Trivia](#quiz-trivia)
+# [Quiz Trivia]
 
 This is a solution to the Quiz Trivia project
 
