@@ -22,7 +22,7 @@ This is a solution to the Quiz Trivia project
 
 ### Screenshot
 
-[screenshot](tenzies-game/src/screenshots/screenshot.png)
+[screenshot](trivia/src/screenshots/screenshot.png)
 
 
 ### Links
