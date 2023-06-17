@@ -1,6 +1,6 @@
 # Quiz Trivia
 
-This is a solution to the Quiz Trivia project
+This is the repository to the Quiz Trivia project
 
 ## Table of Contents
 - [Overview](#overview)
